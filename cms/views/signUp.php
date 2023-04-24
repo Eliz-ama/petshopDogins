@@ -1,11 +1,10 @@
 <?php
 include("./blades/header.php");
-include("./partials/header.php");
-include("./components/sectionHeader.php");
-include("./components/couponNotice.php");
+include("../../app/views/components/sectionHeader.php");
+include("../../public/utils/components/popup.php");
 ?>
 <section id="img-cadastro">
-    <img src="./assets/imgs/cadastro.jpg">
+    <img src="../../public/imgs/cadastro.png">
 </section>
 <section id="forms-login">
     <h2>Faça parte do nosso time AUUdacioso!</h2>
@@ -34,6 +33,4 @@ include("./components/couponNotice.php");
 
 </section>
 
-
-<?php include("./partials/footer.php") ?>
 <?php include("./blades/footer.php") ?>
